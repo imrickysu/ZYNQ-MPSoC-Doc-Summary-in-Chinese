@@ -8,16 +8,16 @@ UltraScale Architecture 包含的特性有：
 - power reduction features.
 
 家族成员：
-Virtex® UltraScale+: 16nm FinFET 最高性能和集成度
-Virtex UltraScale: 20nm 很高的性能和集成度
-Kintex® UltraScale+ : 16nm 下最好的价格/性能/功耗平衡
-Kintex UltraScale : 20nm 下最好的价格/性能/功耗平衡
-Zynq® UltraScale+ MPSoC 
+- Virtex® UltraScale+: 16nm FinFET 最高性能和集成度
+- Virtex UltraScale: 20nm 很高的性能和集成度
+- Kintex® UltraScale+ : 16nm 下最好的价格/性能/功耗平衡
+- Kintex UltraScale : 20nm 下最好的价格/性能/功耗平衡
+- Zynq® UltraScale+ MPSoC 
 
 ## Technical Reference Manual Overview ##
-ZYNQ MPSoC（以下简称MPSoC） 把PS和PL组合在一个芯片中。PS部分是ARM Cortex A53 64-bit 4核 APU 和 Cortex-R5 双核 RPU.
+ZYNQ MPSoC（以后简称MPSoC） 把PS和PL组合在一个芯片中。PS部分是ARM Cortex-A53 64-bit 4核 APU 和 Cortex-R5 双核 RPU.
 
-比起ZYNQ 7000的好处有
+比起ZYNQ-7000的好处有
 - Scalable PS with scaling for power and performance
 - Low-power running mode and sleep mode
 - Flexible user-programmable power and performance scaling
@@ -56,7 +56,7 @@ CSU有BootROM，检测是否要做secure boot还是做non-secure boot. 做一些
 
 PL的电源可以关闭以节省功耗。PS的Power Island和模块的时钟都可以选择性关闭，或动态降频来进一步节省功耗。
 
-Table 1-1总结了所有子模块的主要功能和特性
+_Table 1-1_ 总结了所有子模块的主要功能和特性
 
 
 ## System Software ##
